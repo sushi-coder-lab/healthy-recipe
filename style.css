@@ -1,0 +1,80 @@
+body {
+  margin: 10;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url("https://assets.atdw-online.com.au/images/a11021df8ac18bcfc096922562e5b24f.jpeg?rect=222") no-repeat center center/cover;
+
+}
+
+.desktop {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.icon {
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.icon p {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: white;
+}
+
+.start-btn {
+  background-color: #0078d7;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.taskbar-icons {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1px;
+}
+
+.taskbar-icons img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.time {
+
+  font-size: 20px;
+  margin-left: 20px;
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(22, 2, 2);
+}
+.search-bar input {
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  margin-left: 20px;
+}
